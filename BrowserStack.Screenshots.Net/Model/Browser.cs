@@ -1,4 +1,4 @@
-﻿namespace BrowserStackTest.Model
+﻿namespace BrowserStack.Screenshot.Net.Model
 {
     public class Browser
     {

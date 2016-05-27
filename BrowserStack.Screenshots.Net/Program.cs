@@ -1,4 +1,5 @@
-﻿using BrowserStackTest.Model;
+﻿using BrowserStack.Screenshot.Net.Model;
+using BrowserStack.Screenshot.Net.Services;
 using System.Collections.Generic;
 
 namespace BrowserStack.Screenshot.Net
@@ -10,7 +11,7 @@ namespace BrowserStack.Screenshot.Net
         static void Main(string[] args)
         {
             //Authenticate
-            Screenshot.Net.Services.Screenshot s = new Services.Screenshot(userName, accessKey);
+            BrowserStack.Screenshot.Net.Services.Screenshot s = new BrowserStack.Screenshot.Net.Services.Screenshot(userName, accessKey);
 
             //Get Available Browser List
             var availableBrowserList = s.GetAvailableBrowser();

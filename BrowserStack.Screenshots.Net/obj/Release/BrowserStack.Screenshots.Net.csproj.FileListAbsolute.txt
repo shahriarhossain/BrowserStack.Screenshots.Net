@@ -1,0 +1,9 @@
+E:\Projects\BrowserStackScreenshot\BrowserStack.Screenshots.Net\BrowserStack.Screenshots.Net\bin\Release\BrowserStack.Screenshot.Net.exe.config
+E:\Projects\BrowserStackScreenshot\BrowserStack.Screenshots.Net\BrowserStack.Screenshots.Net\bin\Release\BrowserStack.Screenshot.Net.exe
+E:\Projects\BrowserStackScreenshot\BrowserStack.Screenshots.Net\BrowserStack.Screenshots.Net\bin\Release\BrowserStack.Screenshot.Net.pdb
+E:\Projects\BrowserStackScreenshot\BrowserStack.Screenshots.Net\BrowserStack.Screenshots.Net\bin\Release\Newtonsoft.Json.dll
+E:\Projects\BrowserStackScreenshot\BrowserStack.Screenshots.Net\BrowserStack.Screenshots.Net\bin\Release\RestSharp.dll
+E:\Projects\BrowserStackScreenshot\BrowserStack.Screenshots.Net\BrowserStack.Screenshots.Net\bin\Release\Newtonsoft.Json.xml
+E:\Projects\BrowserStackScreenshot\BrowserStack.Screenshots.Net\BrowserStack.Screenshots.Net\bin\Release\RestSharp.xml
+E:\Projects\BrowserStackScreenshot\BrowserStack.Screenshots.Net\BrowserStack.Screenshots.Net\obj\Release\BrowserStack.Screenshot.Net.exe
+E:\Projects\BrowserStackScreenshot\BrowserStack.Screenshots.Net\BrowserStack.Screenshots.Net\obj\Release\BrowserStack.Screenshot.Net.pdb

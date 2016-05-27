@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace BrowserStackTest.Model
+namespace BrowserStack.Screenshot.Net.Model
 {
     public class RootBrowser
     {

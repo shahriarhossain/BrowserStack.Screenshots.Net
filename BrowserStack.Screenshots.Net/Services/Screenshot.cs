@@ -1,6 +1,6 @@
 ﻿using BrowserStack.Screenshot.Net.Helper;
 using BrowserStack.Screenshot.Net.Interface;
-using BrowserStackTest.Model;
+using BrowserStack.Screenshot.Net.Model;
 using RestSharp;
 using System.Collections.Generic;
 

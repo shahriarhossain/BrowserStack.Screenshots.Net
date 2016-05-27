@@ -1,4 +1,4 @@
-﻿using BrowserStackTest.Model;
+﻿using BrowserStack.Screenshot.Net.Model;
 using System.Collections.Generic;
 
 namespace BrowserStack.Screenshot.Net.Interface
