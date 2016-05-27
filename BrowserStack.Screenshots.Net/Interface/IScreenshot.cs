@@ -5,7 +5,7 @@ namespace BrowserStack.Screenshot.Net.Interface
 {
     // ===============================================================
     // AUTHOR      : Shahriar Hossain, Microsoft MVP
-    // PURPOSE     : Perform REST call to BrowserStack Screenshot API
+    // PURPOSE     : Interface REST call to BrowserStack Screenshot API
     // ===============================================================
     public interface IScreenshot
     {

@@ -6,6 +6,11 @@ using System.Collections.Generic;
 
 namespace BrowserStack.Screenshot.Net.Services
 {
+    // ===============================================================
+    // AUTHOR      : Shahriar Hossain, Microsoft MVP
+    // PURPOSE     : Perform REST call to BrowserStack Screenshot API
+    // ===============================================================
+
     public class Screenshot : IScreenshot
     {
         public string UserName { get; set; }
@@ -26,7 +31,8 @@ namespace BrowserStack.Screenshot.Net.Services
         {
             var request = new RestRequest();
             request.Resource = "/browsers.json";
-            return BaseOperation.ExecuteGet<List<Browser>>(request, baseUrl, UserName, AccessKey);
+            var x= BaseOperation.ExecuteGet<List<Browser>>(request, baseUrl, UserName, AccessKey);
+            return x;
         }
 
         /// <summary>

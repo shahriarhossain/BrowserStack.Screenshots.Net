@@ -4,17 +4,17 @@ using System.Collections.Generic;
 
 namespace BrowserStack.Screenshot.Net
 {
-    class Program
+    internal class Program
     {
-        const string userName = "--Your BrowserStack UserName goes here--";
-        const string accessKey = "--Your BrowserStack  AccessKey goes here--";
+        const string userName = "Your BrowserStack User Name goes here";
+        const string accessKey = "Your BrowserStack Access Key goes here";
         static void Main(string[] args)
         {
             //Authenticate
             BrowserStack.Screenshot.Net.Services.Screenshot s = new BrowserStack.Screenshot.Net.Services.Screenshot(userName, accessKey);
 
             //Get Available Browser List
-            var availableBrowserList = s.GetAvailableBrowser();
+            List<Browser> availableBrowserList = s.GetAvailableBrowser();
 
             //Generate Screenshot
             var browser1 = new Browser()
