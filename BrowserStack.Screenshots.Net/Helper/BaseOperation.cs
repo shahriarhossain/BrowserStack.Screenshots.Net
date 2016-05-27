@@ -7,8 +7,21 @@ using System.Collections.Generic;
 
 namespace BrowserStack.Screenshot.Net.Helper
 {
-    public static class BaseOperation
+    // ================================================
+    // AUTHOR      : Shahriar Hossain, Microsoft MVP
+    // PURPOSE     : Perform core operation
+    // ================================================
+
+    internal static class BaseOperation
     {
+        /// <summary>
+        /// Generic Post method
+        /// <param name="request">Restsharp request object</param>
+        /// <param name="endpoint">The url where we want to hit to get result</param>
+        /// <param name="obj">Object that you want to serialize</param>
+        /// <param name="userName">BrowserStack User Name</param>
+        /// <param name="accessKey">BrowserStack Access Key</param>
+        /// </summary>
         public static T ExecutePost<T, K>(RestRequest request, string endPoint, K obj, string userName = "default", string accessKey = "default") where T : class, new()
         {
             var restClient = new RestClient(endPoint)
@@ -52,6 +65,13 @@ namespace BrowserStack.Screenshot.Net.Helper
             return response.Data;
         }
 
+        /// <summary>
+        /// Generic Post method
+        /// <param name="request">Restsharp request object</param>
+        /// <param name="endpoint">The url where we want to hit to get result</param>
+        /// <param name="userName">BrowserStack User Name</param>
+        /// <param name="accessKey">BrowserStack Access Key</param>
+        /// </summary>
         public static T ExecuteGet<T>(RestRequest request, string endPoint, string userName = "default", string accessKey = "default") where T : class, new()
         {
             var restClient = new RestClient(endPoint)

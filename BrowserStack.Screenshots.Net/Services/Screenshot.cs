@@ -19,20 +19,30 @@ namespace BrowserStack.Screenshot.Net.Services
             this.AccessKey = accessKey;
         }
 
+        /// <summary>
+        /// Get available browser
+        /// </summary>
         public List<Browser> GetAvailableBrowser()
         {
-            
             var request = new RestRequest();
             request.Resource = "/browsers.json";
             return BaseOperation.ExecuteGet<List<Browser>>(request, baseUrl, UserName, AccessKey);
         }
 
+        /// <summary>
+        /// Generate screenshot
+        /// <param name="browserList">List of browser for which you want to generate screenshot</param>
+        /// </summary>
         public RootScreenshot GenerateScreenshot(RootBrowser browserList)
         {
             var request = new RestRequest();
             return BaseOperation.ExecutePost<RootScreenshot, RootBrowser>(request, baseUrl, browserList, UserName, AccessKey);
         }
 
+        /// <summary>
+        /// Get screenshot 
+        /// <param name="jobId">Get generate screenshot by job id</param>
+        /// </summary>
         public RootScreenshot GetGeneratedScreenshot(string jobId)
         {
             var request = new RestRequest();
