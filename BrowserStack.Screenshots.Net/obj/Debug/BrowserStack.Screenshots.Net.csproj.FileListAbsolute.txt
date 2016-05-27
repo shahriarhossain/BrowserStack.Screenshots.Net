@@ -1,0 +1,10 @@
+E:\Projects\BrowserStackScreenshot\BrowserStack.Screenshot.Net\bin\Debug\BrowserStack.Screenshot.Net.exe.config
+E:\Projects\BrowserStackScreenshot\BrowserStack.Screenshot.Net\bin\Debug\BrowserStack.Screenshot.Net.exe
+E:\Projects\BrowserStackScreenshot\BrowserStack.Screenshot.Net\bin\Debug\BrowserStack.Screenshot.Net.pdb
+E:\Projects\BrowserStackScreenshot\BrowserStack.Screenshot.Net\bin\Debug\Newtonsoft.Json.dll
+E:\Projects\BrowserStackScreenshot\BrowserStack.Screenshot.Net\bin\Debug\RestSharp.dll
+E:\Projects\BrowserStackScreenshot\BrowserStack.Screenshot.Net\bin\Debug\Newtonsoft.Json.xml
+E:\Projects\BrowserStackScreenshot\BrowserStack.Screenshot.Net\bin\Debug\RestSharp.xml
+E:\Projects\BrowserStackScreenshot\BrowserStack.Screenshot.Net\obj\Debug\BrowserStack.Screenshots.Net.csprojResolveAssemblyReference.cache
+E:\Projects\BrowserStackScreenshot\BrowserStack.Screenshot.Net\obj\Debug\BrowserStack.Screenshot.Net.exe
+E:\Projects\BrowserStackScreenshot\BrowserStack.Screenshot.Net\obj\Debug\BrowserStack.Screenshot.Net.pdb
