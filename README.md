@@ -1,4 +1,4 @@
-# BrowserStack.Screenshots.Net
+# <img src="https://learnwithshahriar.files.wordpress.com/2016/05/browserstack_logo_1.png" width="50" height="50" />BrowserStack.Screenshots.Net
 .Net wrapper for BrowserStack Screenshot API 
 
 ## Status
