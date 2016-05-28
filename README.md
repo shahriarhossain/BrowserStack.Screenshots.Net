@@ -1,6 +1,12 @@
 # BrowserStack.Screenshots.Net
 .Net wrapper for BrowserStack Screenshot API 
 
+## Status
+
+![Build status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)
+![Nuget status](https://img.shields.io/badge/nuget-v%201.0.0-blue.svg)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)]()
+
 As the name says **BrowserStack.Screenshots.Net** is a .Net wrapper that expose a very simple yet elegant wrapper around the BrowserStack Screenshots RESTful JSON API documented at https://www.browserstack.com/screenshots/api
 
 Support
